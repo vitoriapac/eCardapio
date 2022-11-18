@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 import GeneralSansRegularWoff2 from "../assets/fonts/GeneralSans-Regular.woff2";
 import GeneralSansRegularWoff from "../assets/fonts/GeneralSans-Regular.woff";
