@@ -1,12 +1,12 @@
 import { Container } from "./styles";
-import { Board } from "../OrdersBoard";
+import { OrderBoard } from "../OrdersBoard";
 
 export function Orders() {
   return (
     <Container>
-      <Board />
-      <Board />
-      <Board />
+      <OrderBoard icon="🕑" title="Fila de espera" />
+      <OrderBoard icon="👨‍🍳" title="Em preparação" />
+      <OrderBoard icon="✅" title="Pronto" />
     </Container>
   );
 }

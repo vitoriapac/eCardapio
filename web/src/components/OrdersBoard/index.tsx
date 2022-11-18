@@ -1,11 +1,16 @@
-import { OrderBoard, OrderContainer } from "./styles";
+import { Board, OrderContainer } from "./styles";
 
-export function Board() {
+interface OrderBoardProps {
+  icon: string;
+  title: string;
+}
+
+export function OrderBoard({ icon, title }: OrderBoardProps) {
   return (
-    <OrderBoard>
+    <Board>
       <header>
-        <span>🕑</span>
-        <strong>Em produção</strong>
+        <span>{icon}</span>
+        <strong>{title}</strong>
         <span>(1)</span>
       </header>
 
@@ -20,6 +25,6 @@ export function Board() {
           <span>2 itens</span>
         </button>
       </OrderContainer>
-    </OrderBoard>
+    </Board>
   );
 }

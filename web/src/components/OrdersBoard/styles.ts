@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const OrderBoard = styled.div`
+export const Board = styled.div`
   padding: 16px;
   border: 1px solid rgba(204, 204, 204, 0.4);
   border-radius: 16px;
